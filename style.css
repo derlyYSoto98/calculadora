@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* margin-top: 5%; 
+    margin-bottom: 500px; */
+    height: 100%;
+    width: 100%;
+    font: 80px arial, helvetica, sans-serif;
+    padding: 3px; 
+    background:linear-gradient(225deg,rgb(211, 19, 19), rgb(19, 19, 19), white);
+    /* background:linear-gradient(225deg,goldenrod,rgb(220, 8, 0),rgb(144,12,144), blue); */
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-size: cover;  
+}
+table{
+    background-color: rgb(164,172,228);
+    border-radius: 15px;
+    padding: 3px;
+    margin-bottom: 100px;
+}
+.boton1{
+    font-size: 50px;
+   margin: center;
+   margin-left: 10px;
+   background-color: rgb(232,228,252);
+   width: 80px;
+   height: 80px;
+   border-radius: 15px;
+   border: 5px solid #12ebeb;
+   border:8px #12ebeb outset;
+   color: rgb(100,100,148);
+}
+#boton2{
+    background-color: #726491;
+    color: white;
+}
+input{
+    margin-top: 5%;
+    width: 400px;
+    height: 80px;
+    border: 3px solid #5dbdbd;
+    border-radius: 15px;
+    font-size: 50px;
+}
+button{
+    padding: 10px;
+}
+#titulo{
+    font-size: 1em;
+    text-align: center;
+    color: blanchedalmond;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.boton1:hover{
+    color: rgb(219, 13, 13);
+}
+#boton2:hover{
+    color: red;
+}
+#pantalla{
+    background: rgb(232,228,252);
+    border: 50px solid #68648c;
+}
